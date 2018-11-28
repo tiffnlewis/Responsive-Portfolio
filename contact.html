@@ -1,78 +1,49 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-
-	<title>Tiffany N. Lewis</title>
-
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+<title>Tiffany N. Lewis</title>
+	
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
 
 </head>
 
 <body background="assets/images/low_contrast_linen.png">
-	<header id="masthead">
-		<div class="container">
-			<a href="index.html" id="logo">Tiffany N. Lewis</a>
-			<nav>
-				<a href="index.html">About</a>
-				<a href="portfolio.html">Portfolio</a>
-				<a href="contact.html">Contact</a>
-			</nav>
-		</div>
+
+	<header>
+
+		<h1>Tiffany N. Lewis</h1>
+		
+		<ul>
+
+			<li><a href="index.html">About</a></li> 
+			<li><a href="portfolio.html">Portfolio</a></li> 
+			<li><a 	href="contact.html">Contact</a></li>
+
+		</ul>
+
 	</header>
 
-	<body background="assets/images/low_contrast_linen.png">
+<body>
 
-		<div id="main-container" class="container">
-			<section class="main-section">
-				<h1>Contact</h1>
+	<div class="container">
 
-				<form id="contact-form">
-					<ul>
-						<li>
-							<label for="name">Name</label>
-							<input type="text" id="name" name="name" placeholder="John Smith" required="required">
-						</li>
-						<li>
-							<label for="email">Email</label>
-							<input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-						</li>
-						<li>
-							<label for="message">Message</label>
-							<textarea id="message" name="message" required="required"></textarea>
-						</li>
-					</ul>
-					<input type="submit">
-				</form>
-
-			</section>
-
-			<section class="sidebar">
-				<div id="connect">
-					<h2>Connect with Me</h2>
-
-					<a href="https://github.com/tiffnlewis">
-						<img src="assets/images/github.png" class="social" alt="GitHub" />
-					</a>
-					<a href="https://www.linkedin.com/in/tiffany-n-lewis/">
-						<img src="assets/images/linkedin.png" class="social" alt="LinkedIn" />
-					</a>
-					<a href="https://stackexchange.com/users/12445461/tiffnlewis">
-						<img src="assets/images/stackoverflow.png" class="social" alt="Stack Overflow" />
-					</a>
-				</div>
-			</section>
-		</div>
-
+		<section id="form">
+			<h2>Contact Me</h2>
+			<hr>
+			<form>
+				Name:<br>
+  				<input type="text" name="Name" placeholder="John Smith"><br><br>
+  				Email:<br>
+  				<input type="text" name="Email" placeholder="example@gmail.com"><br><br>
+  				Message:<br>
+  				<input type="text" name="Message" style=height:200px><br>
+			</form>
+			<br><br><br><br>
+			<button>Submit</button>
 		</section>
-		</div>
-		<footer>
-			<div class="container">
-				Copyright &copy; 2018 Tiffany N. Lewis
-			</div>
-		</footer>
-	</body>
 
+
+	</div>
+<footer class="footer">&copy; Copyright 2018 Tiffany N. Lewis</footer>
+
+</body>
 </html>
