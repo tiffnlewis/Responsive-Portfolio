@@ -211,3 +211,33 @@ button {
 		 width: 760px;
 	 }
 }
+
+@media screen and (max-width: 768px) {
+	ul {
+		font-size: 15px;
+		margin-top: 5%;
+	}
+
+	h1 {
+		width: 300px;
+	}
+
+	#aboutMe {
+		width: 570px;
+		margin-left: 3%;
+	}
+
+	#portfolio {
+		width: 570px;
+		margin-left: 3%;
+	}
+
+	#trivia {
+		margin-top: 26%;
+	}
+
+	#form {
+		width: 570px;
+		margin-left: 3%;
+	}
+}
