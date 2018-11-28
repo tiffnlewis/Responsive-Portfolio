@@ -241,3 +241,52 @@ button {
 		margin-left: 3%;
 	}
 }
+
+@media screen and (max-width: 640px) {
+	
+	h1 {
+		width: 200px;
+		font-size: 20px;
+	}
+
+	#aboutMe {
+		width: 440px;
+		margin-left: 7%;
+	}
+
+	#portfolio {
+		width: 440px;
+		margin-left: 7%;
+
+	}
+	 #hangman {
+		position: relative;
+		clear: right;
+		margin-left: 30%;
+		margin-bottom: 10%;	 
+	}
+	#rpg {
+		margin-right: 25%;
+	}
+
+	#trivia {
+		position: relative;
+		clear: right;
+		margin-top: 10%;
+		margin-left: 30%;	
+	}
+
+	#widget {
+		margin-top: 10%;
+		margin-right: 24%;
+	}
+
+	#rock {
+		margin-left: 30%;
+	}
+
+	#form {
+		width: 440px;
+		margin-left: 7%;
+	}
+}
